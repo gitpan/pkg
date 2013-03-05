@@ -1,5 +1,12 @@
 Revision history for pkg
 
-0.01  
+0.02 Mon Mar  4 21:58:33 EST 2013
+
+[BUG FIX]
+
+* remove debug print statement
+
+
+0.01
        Initial release.
 

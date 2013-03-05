@@ -5,6 +5,7 @@ use inc::Module::Install;
 name 'pkg';
 author 'Diab Jerius';
 
+license 'gpl3';
 all_from 'lib/pkg.pm';
 
 requires 'Class::Load';
@@ -26,6 +27,7 @@ test_requires 'Test::Trap';
 
 build_requires 'Test::More';
 
+repository 'https://bitbucket.org/djerius/pkg';
 readme_from( '', { clean => 1 } );
 
 WriteAll;

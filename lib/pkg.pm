@@ -4,7 +4,7 @@ use 5.10.1;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my %opt_nargs = (
     alias     => { n => 0, name => 'alias',   value => 1, tag => 1 },
@@ -153,8 +153,6 @@ sub _process_pkg {
 sub _make_alias {
 
     my ( $to, $package, $alias ) = @_;
-
-    say STDERR join( '::', $to, $alias ), " = $package";
 
     no strict 'refs';    ## no critic
     *{ join( '::', $to, $alias ) } = sub () { $package };

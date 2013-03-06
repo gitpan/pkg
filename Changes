@@ -1,5 +1,11 @@
 Revision history for pkg
 
+0.03 Tue Mar  5 22:07:01 EST 2013
+
+[BUILD FIX]
+
+* add missing test requirement on Test::Exception
+
 0.02 Mon Mar  4 21:58:33 EST 2013
 
 [BUG FIX]

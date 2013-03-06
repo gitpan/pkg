@@ -23,6 +23,7 @@ tests_recursive;
 test_requires 'Test::Lib';
 test_requires 'Test::More';
 test_requires 'Test::Trap';
+test_requires 'Test::Exception';
 
 
 build_requires 'Test::More';

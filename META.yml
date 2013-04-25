@@ -4,6 +4,7 @@ author:
   - 'Diab Jerius'
 build_requires:
   ExtUtils::MakeMaker: 6.59
+  Test::Exception: 0
   Test::Lib: 0
   Test::More: 0
   Test::Trap: 0
@@ -30,4 +31,4 @@ requires:
 resources:
   license: http://opensource.org/licenses/gpl-3.0.html
   repository: https://bitbucket.org/djerius/pkg
-version: 0.02
+version: 0.04
